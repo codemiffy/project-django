@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog Sederhana Django</title>
+</head>
+<body>
+    <header>
+        <h1><a href="/">Blog Saya</a></h1>
+    </header>
+
+    {% for post in posts %}
+        <article>
+            <h2><a href="">{{ post.title }}</a></h2>
+            <p>Published: {{ post.published_date }}</p>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </article>
+    {% endfor %}
+
+</body>
+</html>

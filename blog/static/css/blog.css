@@ -1,4 +1,3 @@
-/* Header */
 .page-header {
     background-color: #C25100;
     margin-top: 0;
@@ -15,7 +14,6 @@
     text-decoration: none;
 }
 
-/* Heading */
 h1,
 h2,
 h3,
@@ -23,23 +21,19 @@ h4 {
     font-family: 'Lobster', cursive;
 }
 
-/* Date */
 .date {
     color: #828282;
 }
 
-/* Save button */
 .save {
     float: right;
 }
 
-/* Post form */
 .post-form textarea,
 .post-form input {
     width: 100%;
 }
 
-/* Top menu */
 .top-menu,
 .top-menu:hover,
 .top-menu:visited {
@@ -49,7 +43,6 @@ h4 {
     margin-right: 20px;
 }
 
-/* Post */
 .post {
     margin-bottom: 70px;
 }
@@ -64,7 +57,6 @@ h4 {
     float: right;
 }
 
-/* Secondary button */
 .btn-secondary,
 .btn-secondary:visited {
     color: #C25100;

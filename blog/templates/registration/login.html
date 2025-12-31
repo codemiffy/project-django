@@ -6,13 +6,9 @@
     {% endif %}
 
     <h2>Please login:</h2>
-
     <form method="POST" action="{% url 'login' %}">
         {% csrf_token %}
         {{ form.as_p }}
-
-        <button type="submit" class="btn btn-secondary">
-            Login
-        </button>
+        <button type="submit" class="btn btn-secondary">Login</button>
     </form>
 {% endblock %}

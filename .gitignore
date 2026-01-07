@@ -1,33 +1,42 @@
 # Python
-*.py[cod]
-*$py.class
-*.so
-.Python
-__pycache__/
 *.pyc
+*~
+__pycache__
 
-# Virtual Environment
+# Env
+.env
+myvenv/
 myenv/
 venv/
-ENV/
 env/
+ENV/
 .venv
+
+# Database
+db.sqlite3
+db.sqlite3-journal
 
 # Django
 *.log
-db.sqlite3
-db.sqlite3-journal
+local_settings.py
 /media
-/staticfiles
-/static
 
-# Environment variables
-.env
-.env.local
+# Static folder at project root
+/static/
 
-# IDE
+# macOS
+._*
+.DS_Store
+.fseventsd
+.Spotlight-V100
+
+# Windows
+Thumbs.db*
+ehthumbs*.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Visual Studio
 .vscode/
-.idea/
-*.swp
-*.swo
-*~
+.history/
+*.code-workspace
